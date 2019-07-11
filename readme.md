@@ -42,7 +42,19 @@ Factory functions are used to store your applications state in between system ac
 
 ## Take a look
 
-Take a look at this weekly bus ticket.
+Take a look at the [weekly bus ticket widget](https://codex-academy.github.io/weekly-bus-ticket/) here.
+
+Using a factory function makes it easy to keep track of how many trips are still left on the ticket.
+
+It also makes it easy to [test](https://codex-academy.github.io/weekly-bus-ticket/test/) the logic of the weekly ticket.
+
+## General usage
+
+In this case the [WeeklyBusTicket](https://github.com/codex-academy/weekly-bus-ticket/blob/gh-pages/weekly-bus-ticket.js) factory function is used to count how many rides are left on the ticket. You can use them in your application to count up or down, increment or decrement values or whatever it is that you application need to do.
+
+## Scenarios
+
+What other scenario or problem can you think of that could be implemented using a Factory Function.
 
 
 
