@@ -32,13 +32,17 @@ console.log(singleTripTicket(5, 4));
 
 This function got no state - it just returns true or false. You either get a ticket to ride on the bus or not.
 
+## A weekly ticket
+
 A weekly bus ticket is whole different thing. When you buy one you can ride on the bus ten times in a given week. You can ride up until all the rides has been used up.
 
-The ticket carry some `state` of how many times it can still be used. In the past the tickets was clipped, now a days there are more snazzy electronic cards which get read on the buss. You snap a card on the card reader and if the light is green you get on. If you used up all your rides it's a red light and a tragic beep, but no bus ride for you.
+The ticket carry some `state` of how many times it can still be used. In the past a hole punched in the ticket, now a days there are more snazzy electronic cards which get read on the bus. You snap yout card on the card reader and if the light is green you get on. If you used up all your rides it's a red light and a tragic beep, and no bus ride for you.
 
-Factory functions are like a Weekly Bus Tickets - they carry some state in them and they have a lifecycle that lasts longer - longer than once bus ride at least.
+## Factory functions & weekly tickets
 
-Factory functions are used to store your applications state in between system activities and can easily be decoupled from the screen logic of your application. Your screen can send it information that it will process. Only for the screen to later ask it for some information again. That way your application logic stays testable and easier to use with your front-end code.
+Factory functions are like a Weekly Bus Tickets. Factory functions can carry some state in them and they have a lifecycle that  longer than one bus ride.
+
+Factory functions are used to store your applications state in between system activities and can easily be decoupled from the screen logic of your application. Your screen can send it information to process. Only for the screen to ask the Factory function for some information later. Factory functions makes your application logic testable and asy to use with your front-end code.
 
 ## Take a look
 
