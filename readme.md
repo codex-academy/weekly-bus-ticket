@@ -1,10 +1,8 @@
 # Bus tickets
 
-What is a Factory function you ask?
+What is a Factory function? Let's think about them in the context of bus tickets.
 
-Let's take a step back and think about it a bit in the context of bus tickets.
-
-A bus ticket for a single ride is like a normal function - you pay money and you get on the bus.
+A bus ticket for a single ride is like a normal function - you pay money and you get on the bus. A function that takes a parameter and returns a result.
 
 Like this:
 
