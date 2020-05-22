@@ -24,7 +24,7 @@ If you pay enough you get on the bus; if not, you don't.
 console.log(singleTripTicket(5, 4));
 
 // this prints true - as  enough money was offered to buy a ticket
-console.log(singleTripTicket(5, 4));
+console.log(singleTripTicket(5, 5));
 
 ```
 
